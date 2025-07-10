@@ -32,15 +32,18 @@ const Footer = () => {
             <p className='text-gray-600 dark:text-gray-400 lg:pr-24 pt-3'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Error exercitationem neque consequuntur in incidunt repellendus.
             </p>
-            <p className='text-gray-500 dark:text-gray-300/80 mt-4'>
-              Made with 💖 by The Coding Journey
-            </p>
-            <a href="#"
-              target="_blank"
-              className='inline-block bg-primary/90 text-white py-2 px-4 mt-4 text-sm rounded-full'
-            >
-              Visit our Youtube Channel
-            </a>
+            {/* Social Links */}
+              <div className='flex gap-6 mt-4'>
+                <a href="#">
+                  <FaInstagram className='text-3xl text-white hover:text-primary hover:scale-105 duration-200'/>
+                </a>
+                <a href="#">
+                  <FaFacebook className='text-3xl text-white hover:text-primary hover:scale-105 duration-200'/>
+                </a>
+                <a href="#">
+                  <FaLinkedin className='text-3xl text-white hover:text-primary hover:scale-105 duration-200'/>
+                </a>
+            </div>
           </div>
 
           {/* Footer Link Section */}
@@ -86,7 +89,7 @@ const Footer = () => {
 
             {/* Company's Handles(Social media accounts) */}
             <div className='py-8 px-4 col-span-2 sm:col-auto'>
-              <h1 className='text-xl font-bold text-gray-800 dark:text-gray-300/90'>Address</h1>
+              <h1 className='text-xl font-bold text-gray-800 dark:text-gray-300/90 pb-2'>Address</h1>
               <div className='text-gray-800 dark:text-white/80'>
                 <div className='flex items-center gap-3'>
                   <FaLocationArrow />
@@ -95,19 +98,6 @@ const Footer = () => {
                 <div className='flex items-center gap-3 py-3'>
                   <FaMobileAlt />
                   <p>+91 1234567890</p>
-                </div>
-
-                {/* Social Links */}
-                <div className='flex gap-6 mt-4'>
-                  <a href="#">
-                    <FaInstagram className='text-3xl hover:text-primary hover:scale-105 duration-200'/>
-                  </a>
-                  <a href="#">
-                    <FaFacebook className='text-3xl hover:text-primary hover:scale-105 duration-200'/>
-                  </a>
-                  <a href="#">
-                    <FaLinkedin className='text-3xl hover:text-primary hover:scale-105 duration-200'/>
-                  </a>
                 </div>
               </div>
             </div>
