@@ -93,7 +93,7 @@ const Footer = () => {
               <div className='text-gray-800 dark:text-white/80'>
                 <div className='flex items-center gap-3'>
                   <FaLocationArrow />
-                  <p>Noida, Uttar Pradesh</p>
+                  <p>Ahmedabad, Gujarat</p>
                 </div>
                 <div className='flex items-center gap-3 py-3'>
                   <FaMobileAlt />
